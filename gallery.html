@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Comic Books and Legos Fan Site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header, nav, main, footer {
+            padding: 1rem;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .gallery-section {
+            background-color: #fff;
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+        .gallery-item {
+            text-align: center;
+        }
+        .gallery-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gallery</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="comic-books.html">Comic Books</a></li>
+            <li><a href="legos.html">Legos</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="gallery-section">
+            <h2>Lego Builds</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/yodaslegospaceship.jpg" alt="Description of the image" width="300">
+                    <p>Yoda's lego spaceship</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/stormtroopermech.jpg" alt="Description of the image" width="300">
+                    <p>Stormtrooper mech</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="gallery-section">
+            <h2>Comic Book Covers</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/dogmancomic.jpg" alt="Description of the image" width="300">
+                    <p>Dogman</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/insideofdogmancomic.jpg" alt="Description of the image" width="300">
+                    <p>Dogman inside</p>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 Comic Books and Legos Fan Site. All rights reserved.</p>
+    </footer>
+</body>
+</html>
