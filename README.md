@@ -1,1 +1,1 @@
-# liamlegocomics.github.io
+# liamlegos.github.io
